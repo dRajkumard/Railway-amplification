@@ -1,5 +1,9 @@
 {
     "version":2,
+    "env":{
+        "DB_URL":"postgres://admin:admin@localhost:5432"
+
+    },
     "builds":[
         {
             "src":"src/main.ts",
