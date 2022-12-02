@@ -2,7 +2,7 @@
   "name": "@my-service/server",
   "private": true,
   "scripts": {
-    
+    "postinstall": "prisma generate",
     "start": "nest start",
     "start:watch": "nest start --watch",
     "start:debug": "nest start --debug --watch",
