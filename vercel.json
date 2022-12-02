@@ -2,11 +2,11 @@
     "version":2,
     "builds":[
         {
-            
-            "src/main.ts": {
+           
+           "src": "src/main.ts",
                 "memory": 3008,
-                "maxDuration": 60
-              },
+                "maxDuration": 60,
+              
             "use":"@vercel/node"
         }
     ],
