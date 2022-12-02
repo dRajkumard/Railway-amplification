@@ -3,6 +3,10 @@
     "builds":[
         {
             "src":"src/main.ts",
+            "src/main.ts": {
+                "memory": 3008,
+                "maxDuration": 60
+              },
             "use":"@vercel/node"
         }
     ],
@@ -17,13 +21,6 @@
                 "DELETE"
             ]
         }
-    ],
-   
-        "functions": {
-          "src/main.ts": {
-            "memory": 3008,
-            "maxDuration": 60
-          }
-          }
+    ]
 
 }
